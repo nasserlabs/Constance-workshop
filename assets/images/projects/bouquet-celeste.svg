@@ -1,0 +1,95 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond dégradé céleste -->
+  <defs>
+    <linearGradient id="celesteGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8F9FA;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#E8EEF2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4E4F0;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="whiteRose" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#F5F5F5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8E8E8;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#celesteGradient)"/>
+  
+  <!-- Cercles décoratifs -->
+  <circle cx="120" cy="100" r="60" fill="#FFFFFF" opacity="0.15"/>
+  <circle cx="680" cy="480" r="80" fill="#FFFFFF" opacity="0.12"/>
+  
+  <!-- Composition centrale -->
+  <g transform="translate(400, 300)">
+    <!-- Tiges d'eucalyptus (argentées) -->
+    <line x1="-45" y1="40" x2="-55" y2="-70" stroke="#A8B5B2" stroke-width="3" opacity="0.7"/>
+    <line x1="45" y1="40" x2="55" y2="-75" stroke="#A8B5B2" stroke-width="3" opacity="0.7"/>
+    <line x1="-20" y1="45" x2="-25" y2="-90" stroke="#A8B5B2" stroke-width="3" opacity="0.7"/>
+    <line x1="20" y1="45" x2="25" y2="-85" stroke="#A8B5B2" stroke-width="3" opacity="0.7"/>
+    
+    <!-- Feuilles d'eucalyptus -->
+    <ellipse cx="-55" cy="-40" rx="10" ry="18" fill="#C5D3D0" opacity="0.8" transform="rotate(-20 -55 -40)"/>
+    <ellipse cx="-50" cy="-55" rx="9" ry="16" fill="#C5D3D0" opacity="0.8" transform="rotate(-15 -50 -55)"/>
+    <ellipse cx="55" cy="-45" rx="10" ry="18" fill="#C5D3D0" opacity="0.8" transform="rotate(20 55 -45)"/>
+    <ellipse cx="50" cy="-60" rx="9" ry="16" fill="#C5D3D0" opacity="0.8" transform="rotate(15 50 -60)"/>
+    
+    <!-- Gypsophile (petites fleurs blanches) -->
+    <circle cx="-60" cy="-20" r="3" fill="#FFFFFF"/>
+    <circle cx="-65" cy="-30" r="2.5" fill="#FFFFFF"/>
+    <circle cx="60" cy="-25" r="3" fill="#FFFFFF"/>
+    <circle cx="65" cy="-35" r="2.5" fill="#FFFFFF"/>
+    <circle cx="-70" cy="0" r="2" fill="#FFFFFF"/>
+    <circle cx="70" cy="-5" r="2" fill="#FFFFFF"/>
+    <circle cx="-30" cy="-65" r="2.5" fill="#FFFFFF"/>
+    <circle cx="30" cy="-70" r="2.5" fill="#FFFFFF"/>
+    
+    <!-- Roses blanches principales -->
+    <!-- Rose 1 (centre gauche) -->
+    <g transform="translate(-35, -50)">
+      <circle r="22" fill="url(#whiteRose)"/>
+      <circle r="18" fill="#FFFFFF" opacity="0.9"/>
+      <circle r="14" fill="#F8F8F8" opacity="0.95"/>
+      <circle r="10" fill="#F0F0F0"/>
+      <circle r="6" fill="#E8E8E8"/>
+    </g>
+    
+    <!-- Rose 2 (centre) -->
+    <g transform="translate(0, -60)">
+      <circle r="25" fill="url(#whiteRose)"/>
+      <circle r="21" fill="#FFFFFF" opacity="0.9"/>
+      <circle r="17" fill="#F8F8F8" opacity="0.95"/>
+      <circle r="12" fill="#F0F0F0"/>
+      <circle r="7" fill="#E8E8E8"/>
+    </g>
+    
+    <!-- Rose 3 (centre droite) -->
+    <g transform="translate(35, -55)">
+      <circle r="23" fill="url(#whiteRose)"/>
+      <circle r="19" fill="#FFFFFF" opacity="0.9"/>
+      <circle r="15" fill="#F8F8F8" opacity="0.95"/>
+      <circle r="11" fill="#F0F0F0"/>
+      <circle r="6" fill="#E8E8E8"/>
+    </g>
+    
+    <!-- Rose 4 (avant-plan gauche) -->
+    <g transform="translate(-15, -25)">
+      <circle r="20" fill="url(#whiteRose)"/>
+      <circle r="16" fill="#FFFFFF" opacity="0.9"/>
+      <circle r="12" fill="#F8F8F8" opacity="0.95"/>
+      <circle r="8" fill="#F0F0F0"/>
+    </g>
+    
+    <!-- Rose 5 (avant-plan droite) -->
+    <g transform="translate(15, -30)">
+      <circle r="21" fill="url(#whiteRose)"/>
+      <circle r="17" fill="#FFFFFF" opacity="0.9"/>
+      <circle r="13" fill="#F8F8F8" opacity="0.95"/>
+      <circle r="9" fill="#F0F0F0"/>
+    </g>
+  </g>
+  
+  <!-- Éléments décoratifs aériens -->
+  <circle cx="150" cy="450" r="4" fill="#FFFFFF" opacity="0.4"/>
+  <circle cx="650" cy="120" r="3" fill="#FFFFFF" opacity="0.4"/>
+  <circle cx="200" cy="180" r="5" fill="#FFFFFF" opacity="0.3"/>
+</svg>

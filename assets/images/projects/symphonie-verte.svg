@@ -1,0 +1,92 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond dégradé vert -->
+  <defs>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F4E8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#D5E8D5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C8DCC8;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="monsteraGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#6B8B6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5A6C57;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#greenGradient)"/>
+  
+  <!-- Cercles décoratifs -->
+  <circle cx="110" cy="100" r="70" fill="#8FA08E" opacity="0.1"/>
+  <circle cx="690" cy="510" r="90" fill="#8FA08E" opacity="0.08"/>
+  
+  <!-- Composition centrale -->
+  <g transform="translate(400, 320)">
+    <!-- Tiges principales -->
+    <line x1="-50" y1="20" x2="-65" y2="-90" stroke="#5A6C57" stroke-width="5" opacity="0.7"/>
+    <line x1="0" y1="25" x2="0" y2="-100" stroke="#5A6C57" stroke-width="6" opacity="0.7"/>
+    <line x1="50" y1="20" x2="62" y2="-85" stroke="#5A6C57" stroke-width="5" opacity="0.7"/>
+    <line x1="-25" y1="22" x2="-30" y2="-70" stroke="#5A6C57" stroke-width="4" opacity="0.7"/>
+    <line x1="25" y1="22" x2="30" y2="-75" stroke="#5A6C57" stroke-width="4" opacity="0.7"/>
+    
+    <!-- Feuilles de Monstera (avec découpes caractéristiques) -->
+    <!-- Monstera 1 (gauche) -->
+    <g transform="translate(-65, -90)">
+      <path d="M 0 0 Q -20 -15 -25 -35 Q -15 -45 0 -50 Q 15 -45 25 -35 Q 20 -15 0 0 Z" 
+            fill="#6B8B6B" opacity="0.9"/>
+      <!-- Découpes -->
+      <ellipse cx="-8" cy="-20" rx="3" ry="8" fill="#D5E8D5" opacity="0.8"/>
+      <ellipse cx="8" cy="-20" rx="3" ry="8" fill="#D5E8D5" opacity="0.8"/>
+      <ellipse cx="-5" cy="-35" rx="2.5" ry="6" fill="#D5E8D5" opacity="0.8"/>
+      <ellipse cx="5" cy="-35" rx="2.5" ry="6" fill="#D5E8D5" opacity="0.8"/>
+    </g>
+    
+    <!-- Monstera 2 (droite) -->
+    <g transform="translate(62, -85)">
+      <path d="M 0 0 Q -18 -12 -22 -30 Q -12 -42 0 -45 Q 12 -42 22 -30 Q 18 -12 0 0 Z" 
+            fill="#7A9B7A" opacity="0.9"/>
+      <ellipse cx="-7" cy="-18" rx="3" ry="7" fill="#D5E8D5" opacity="0.8"/>
+      <ellipse cx="7" cy="-18" rx="3" ry="7" fill="#D5E8D5" opacity="0.8"/>
+      <ellipse cx="-4" cy="-30" rx="2.5" ry="5" fill="#D5E8D5" opacity="0.8"/>
+      <ellipse cx="4" cy="-30" rx="2.5" ry="5" fill="#D5E8D5" opacity="0.8"/>
+    </g>
+    
+    <!-- Feuilles d'Anthurium (en forme de cœur) -->
+    <!-- Anthurium 1 -->
+    <g transform="translate(0, -100)">
+      <path d="M 0 0 Q -12 -8 -15 -20 Q -8 -28 0 -30 Q 8 -28 15 -20 Q 12 -8 0 0 Z" 
+            fill="#6B8B6B" opacity="0.85"/>
+      <path d="M -15 -20 Q -18 -12 -15 -5" stroke="#5A6C57" stroke-width="1.5" fill="none" opacity="0.6"/>
+      <path d="M 15 -20 Q 18 -12 15 -5" stroke="#5A6C57" stroke-width="1.5" fill="none" opacity="0.6"/>
+    </g>
+    
+    <!-- Anthurium 2 -->
+    <g transform="translate(-30, -70)">
+      <path d="M 0 0 Q -10 -7 -13 -17 Q -7 -24 0 -26 Q 7 -24 13 -17 Q 10 -7 0 0 Z" 
+            fill="#7A9B7A" opacity="0.85"/>
+      <path d="M -13 -17 Q -15 -10 -13 -4" stroke="#5A6C57" stroke-width="1.5" fill="none" opacity="0.6"/>
+    </g>
+    
+    <!-- Eucalyptus (feuilles ovales) -->
+    <ellipse cx="-45" cy="-55" rx="10" ry="20" fill="#8FA08E" opacity="0.8" transform="rotate(-25 -45 -55)"/>
+    <ellipse cx="-50" cy="-70" rx="9" ry="18" fill="#8FA08E" opacity="0.75" transform="rotate(-20 -50 -70)"/>
+    <ellipse cx="45" cy="-50" rx="10" ry="19" fill="#9FB09E" opacity="0.8" transform="rotate(25 45 -50)"/>
+    <ellipse cx="48" cy="-65" rx="9" ry="17" fill="#9FB09E" opacity="0.75" transform="rotate(20 48 -65)"/>
+    <ellipse cx="30" cy="-75" rx="8" ry="16" fill="#8FA08E" opacity="0.75" transform="rotate(15 30 -75)"/>
+    <ellipse cx="-28" cy="-45" rx="9" ry="17" fill="#8FA08E" opacity="0.75" transform="rotate(-15 -28 -45)"/>
+    
+    <!-- Petites feuilles d'accompagnement -->
+    <ellipse cx="-55" cy="-30" rx="8" ry="15" fill="#9FB09E" opacity="0.7" transform="rotate(-30 -55 -30)"/>
+    <ellipse cx="55" cy="-35" rx="8" ry="14" fill="#9FB09E" opacity="0.7" transform="rotate(30 55 -35)"/>
+    <ellipse cx="-20" cy="-85" rx="7" ry="13" fill="#8FA08E" opacity="0.7" transform="rotate(-10 -20 -85)"/>
+    <ellipse cx="20" cy="-90" rx="7" ry="13" fill="#8FA08E" opacity="0.7" transform="rotate(10 20 -90)"/>
+    
+    <!-- Feuilles supplémentaires au premier plan -->
+    <ellipse cx="-15" cy="-20" rx="12" ry="22" fill="#7A9B7A" opacity="0.85" transform="rotate(-20 -15 -20)"/>
+    <ellipse cx="15" cy="-25" rx="11" ry="21" fill="#7A9B7A" opacity="0.85" transform="rotate(20 15 -25)"/>
+  </g>
+  
+  <!-- Éléments décoratifs -->
+  <ellipse cx="180" cy="200" rx="8" ry="14" fill="#8FA08E" opacity="0.2" transform="rotate(-35 180 200)"/>
+  <ellipse cx="620" cy="350" rx="9" ry="15" fill="#8FA08E" opacity="0.18" transform="rotate(25 620 350)"/>
+  <circle cx="150" cy="480" r="5" fill="#6B8B6B" opacity="0.25"/>
+  <circle cx="650" cy="140" r="4" fill="#6B8B6B" opacity="0.25"/>
+</svg>

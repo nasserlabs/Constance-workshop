@@ -1,0 +1,137 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond dégradé automnal -->
+  <defs>
+    <linearGradient id="autumnGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8F0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#F5E8D8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8D4C0;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="dahliaGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#D4A574;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#C08850;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A86F40;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="chrysanthemumGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#E8B870;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4A050;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#autumnGradient)"/>
+  
+  <!-- Cercles décoratifs -->
+  <circle cx="120" cy="105" r="65" fill="#C08850" opacity="0.08"/>
+  <circle cx="680" cy="495" r="85" fill="#D4A574" opacity="0.1"/>
+  
+  <!-- Composition centrale -->
+  <g transform="translate(400, 310)">
+    <!-- Branches de noisettier -->
+    <g opacity="0.6">
+      <line x1="-55" y1="25" x2="-70" y2="-80" stroke="#8B6F47" stroke-width="4"/>
+      <line x1="55" y1="25" x2="68" y2="-75" stroke="#8B6F47" stroke-width="4"/>
+      <line x1="-70" y1="-45" x2="-85" y2="-60" stroke="#8B6F47" stroke-width="2.5"/>
+      <line x1="-70" y1="-60" x2="-80" y2="-80" stroke="#8B6F47" stroke-width="2.5"/>
+      <line x1="68" y1="-40" x2="80" y2="-55" stroke="#8B6F47" stroke-width="2.5"/>
+      <!-- Petites noisettes -->
+      <circle cx="-80" cy="-65" r="4" fill="#A86F40"/>
+      <circle cx="-75" cy="-62" r="3.5" fill="#A86F40"/>
+      <circle cx="75" cy="-50" r="4" fill="#A86F40"/>
+    </g>
+    
+    <!-- Tiges principales -->
+    <line x1="-35" y1="30" x2="-42" y2="-85" stroke="#8B6F47" stroke-width="4.5" opacity="0.7"/>
+    <line x1="0" y1="32" x2="0" y2="-98" stroke="#8B6F47" stroke-width="5" opacity="0.7"/>
+    <line x1="35" y1="30" x2="40" y2="-80" stroke="#8B6F47" stroke-width="4.5" opacity="0.7"/>
+    
+    <!-- Dahlias (pétales multiples) -->
+    <!-- Dahlia 1 (gauche) -->
+    <g transform="translate(-42, -85)">
+      <circle r="30" fill="url(#dahliaGradient)"/>
+      <!-- Pétales externes -->
+      <ellipse cx="-18" cy="0" rx="16" ry="8" fill="#C08850" opacity="0.9" transform="rotate(-30 -18 0)"/>
+      <ellipse cx="18" cy="0" rx="16" ry="8" fill="#C08850" opacity="0.9" transform="rotate(30 18 0)"/>
+      <ellipse cx="0" cy="-18" rx="8" ry="16" fill="#C08850" opacity="0.9"/>
+      <ellipse cx="0" cy="18" rx="8" ry="16" fill="#C08850" opacity="0.9"/>
+      <ellipse cx="-13" cy="-13" rx="14" ry="7" fill="#D4A574" opacity="0.9" transform="rotate(-45 -13 -13)"/>
+      <ellipse cx="13" cy="-13" rx="14" ry="7" fill="#D4A574" opacity="0.9" transform="rotate(45 13 -13)"/>
+      <ellipse cx="-13" cy="13" rx="14" ry="7" fill="#D4A574" opacity="0.9" transform="rotate(-135 -13 13)"/>
+      <ellipse cx="13" cy="13" rx="14" ry="7" fill="#D4A574" opacity="0.9" transform="rotate(135 13 13)"/>
+      <!-- Centre -->
+      <circle r="15" fill="#A86F40" opacity="0.95"/>
+      <circle r="8" fill="#8B5A30"/>
+    </g>
+    
+    <!-- Dahlia 2 (centre) - le plus grand -->
+    <g transform="translate(0, -98)">
+      <circle r="34" fill="url(#dahliaGradient)"/>
+      <ellipse cx="-20" cy="0" rx="18" ry="9" fill="#C08850" opacity="0.9" transform="rotate(-30 -20 0)"/>
+      <ellipse cx="20" cy="0" rx="18" ry="9" fill="#C08850" opacity="0.9" transform="rotate(30 20 0)"/>
+      <ellipse cx="0" cy="-20" rx="9" ry="18" fill="#C08850" opacity="0.9"/>
+      <ellipse cx="0" cy="20" rx="9" ry="18" fill="#C08850" opacity="0.9"/>
+      <ellipse cx="-15" cy="-15" rx="16" ry="8" fill="#D4A574" opacity="0.9" transform="rotate(-45 -15 -15)"/>
+      <ellipse cx="15" cy="-15" rx="16" ry="8" fill="#D4A574" opacity="0.9" transform="rotate(45 15 -15)"/>
+      <ellipse cx="-15" cy="15" rx="16" ry="8" fill="#D4A574" opacity="0.9" transform="rotate(-135 -15 15)"/>
+      <ellipse cx="15" cy="15" rx="16" ry="8" fill="#D4A574" opacity="0.9" transform="rotate(135 15 15)"/>
+      <circle r="18" fill="#A86F40" opacity="0.95"/>
+      <circle r="10" fill="#8B5A30"/>
+    </g>
+    
+    <!-- Dahlia 3 (droite) -->
+    <g transform="translate(40, -80)">
+      <circle r="28" fill="url(#dahliaGradient)"/>
+      <ellipse cx="-17" cy="0" rx="15" ry="7.5" fill="#C08850" opacity="0.9" transform="rotate(-30 -17 0)"/>
+      <ellipse cx="17" cy="0" rx="15" ry="7.5" fill="#C08850" opacity="0.9" transform="rotate(30 17 0)"/>
+      <ellipse cx="0" cy="-17" rx="7.5" ry="15" fill="#C08850" opacity="0.9"/>
+      <ellipse cx="0" cy="17" rx="7.5" ry="15" fill="#C08850" opacity="0.9"/>
+      <ellipse cx="-12" cy="-12" rx="13" ry="6.5" fill="#D4A574" opacity="0.9" transform="rotate(-45 -12 -12)"/>
+      <ellipse cx="12" cy="-12" rx="13" ry="6.5" fill="#D4A574" opacity="0.9" transform="rotate(45 12 -12)"/>
+      <circle r="14" fill="#A86F40" opacity="0.95"/>
+      <circle r="7" fill="#8B5A30"/>
+    </g>
+    
+    <!-- Chrysanthèmes (texture plus fine) -->
+    <!-- Chrysanthème 1 -->
+    <g transform="translate(-20, -60)">
+      <circle r="22" fill="url(#chrysanthemumGradient)"/>
+      <!-- Pétales fins multiples -->
+      <g opacity="0.9">
+        <ellipse cx="0" cy="-14" rx="3" ry="10" fill="#E8B870"/>
+        <ellipse cx="0" cy="14" rx="3" ry="10" fill="#E8B870"/>
+        <ellipse cx="-14" cy="0" rx="10" ry="3" fill="#E8B870"/>
+        <ellipse cx="14" cy="0" rx="10" ry="3" fill="#E8B870"/>
+        <ellipse cx="-10" cy="-10" rx="8" ry="3" fill="#E8B870" transform="rotate(-45 -10 -10)"/>
+        <ellipse cx="10" cy="-10" rx="8" ry="3" fill="#E8B870" transform="rotate(45 10 -10)"/>
+        <ellipse cx="-10" cy="10" rx="8" ry="3" fill="#E8B870" transform="rotate(-135 -10 10)"/>
+        <ellipse cx="10" cy="10" rx="8" ry="3" fill="#E8B870" transform="rotate(135 10 10)"/>
+      </g>
+      <circle r="12" fill="#D4A050" opacity="0.95"/>
+      <circle r="6" fill="#C08850"/>
+    </g>
+    
+    <!-- Chrysanthème 2 -->
+    <g transform="translate(20, -55)">
+      <circle r="20" fill="url(#chrysanthemumGradient)"/>
+      <g opacity="0.9">
+        <ellipse cx="0" cy="-12" rx="3" ry="9" fill="#E8B870"/>
+        <ellipse cx="0" cy="12" rx="3" ry="9" fill="#E8B870"/>
+        <ellipse cx="-12" cy="0" rx="9" ry="3" fill="#E8B870"/>
+        <ellipse cx="12" cy="0" rx="9" ry="3" fill="#E8B870"/>
+        <ellipse cx="-9" cy="-9" rx="7" ry="2.5" fill="#E8B870" transform="rotate(-45 -9 -9)"/>
+        <ellipse cx="9" cy="-9" rx="7" ry="2.5" fill="#E8B870" transform="rotate(45 9 -9)"/>
+      </g>
+      <circle r="10" fill="#D4A050" opacity="0.95"/>
+      <circle r="5" fill="#C08850"/>
+    </g>
+    
+    <!-- Feuilles automnales -->
+    <ellipse cx="-50" cy="-50" rx="10" ry="18" fill="#A86F40" opacity="0.7" transform="rotate(-25 -50 -50)"/>
+    <ellipse cx="48" cy="-45" rx="11" ry="19" fill="#C08850" opacity="0.7" transform="rotate(25 48 -45)"/>
+    <ellipse cx="-30" cy="-35" rx="9" ry="16" fill="#8B6F47" opacity="0.65" transform="rotate(-15 -30 -35)"/>
+    <ellipse cx="28" cy="-38" rx="9" ry="17" fill="#A86F40" opacity="0.65" transform="rotate(15 28 -38)"/>
+  </g>
+  
+  <!-- Feuilles tombantes décoratives -->
+  <ellipse cx="190" cy="470" rx="8" ry="14" fill="#C08850" opacity="0.25" transform="rotate(-50 190 470)"/>
+  <ellipse cx="610" cy="160" rx="7" ry="12" fill="#D4A574" opacity="0.22" transform="rotate(35 610 160)"/>
+  <ellipse cx="220" cy="220" rx="6" ry="11" fill="#A86F40" opacity="0.2" transform="rotate(-30 220 220)"/>
+</svg>
